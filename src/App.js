@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function CountHook() {
-  const [count, setCount] = useState(100);
+  const [count, setCount] = useState(0);
 
   const handleClick = () => {
     setCount(count + 1);
